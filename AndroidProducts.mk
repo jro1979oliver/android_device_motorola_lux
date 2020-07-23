@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lux.mk
+    $(LOCAL_DIR)/aicp_lux.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lux-userdebug
+    aicp_lux-userdebug
