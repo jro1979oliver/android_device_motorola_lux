@@ -66,4 +66,6 @@
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
 
+    <!-- Whether device has Turbo power charging support -->
+    <bool name="config_hasTurboPowerCharger">true</bool>
 </resources>
