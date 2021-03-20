@@ -13,11 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/motorola/lux/full_lux.mk)
+$(call inherit-product, device/motorola/lux/device.mk)
 
 # Boot animation
-TARGET_SCREEN_WIDTH := 1080
-TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1280
 TARGET_BOOTANIMATION_HALF_RES := true
 
 ## Device identifier. This must come after all inclusions

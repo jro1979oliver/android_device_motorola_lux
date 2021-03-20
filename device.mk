@@ -19,7 +19,7 @@ $(call inherit-product, device/motorola/msm8916-common/msm8916.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
 
 # Screen density
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -89,3 +89,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 # Thermal
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/thermal-engine-lux.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-lux.conf
+
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/motorola/lux/lux-vendor.mk)
+
